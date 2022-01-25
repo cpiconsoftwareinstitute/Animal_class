@@ -13,9 +13,11 @@ public class AnimalTest {
     void SetAgeTest(){
 
         Animal testAnimal = new Human();
+        Animal testAnimal2 = new Dog();
         testAnimal.set_age(16);
+        testAnimal2.set_age(16);
         assertEquals(testAnimal.get_age(), 16, "Wrong age");
-
+        assertEquals(testAnimal2.get_age(), 16, "Wrong age");
     }
 
 }
