@@ -12,12 +12,10 @@ public class AnimalTest {
     @Test
     void SetAgeTest(){
 
-        Animal testAnimal = new Dog();
-        testAnimal.set_age(16);
-        assertEquals(testAnimal.get_age(), 16, "Wrong age");
         Animal testAnimal = new Human();
         testAnimal.set_age(16);
         assertEquals(testAnimal.get_age(), 16, "Wrong age");
+
     }
 
 }
