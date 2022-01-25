@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.carlos.picon.test.AnimalTest" time="0.221" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.carlos.picon.test.AnimalTest" time="0.242" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
@@ -61,8 +61,8 @@
     <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.carlos.picon.test.AnimalTest" name="SetAgeTest" time="0.174"/>
-  <testcase classname="com.carlos.picon.test.AnimalTest" name="SetBreathTest" time="0.043"/>
-  <testcase classname="com.carlos.picon.test.AnimalTest" name="SetHungerTest" time="0.001"/>
-  <testcase classname="com.carlos.picon.test.AnimalTest" name="SetTalkTest" time="0.003"/>
+  <testcase classname="com.carlos.picon.test.AnimalTest" name="SetAgeTest" time="0.203"/>
+  <testcase classname="com.carlos.picon.test.AnimalTest" name="SetBreathTest" time="0.037"/>
+  <testcase classname="com.carlos.picon.test.AnimalTest" name="SetHungerTest" time="0"/>
+  <testcase classname="com.carlos.picon.test.AnimalTest" name="SetTalkTest" time="0.002"/>
 </testsuite>

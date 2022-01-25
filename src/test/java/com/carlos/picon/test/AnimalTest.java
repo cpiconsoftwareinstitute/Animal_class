@@ -38,7 +38,9 @@ public class AnimalTest {
         testAnimal.getHunger();
 
         assertEquals(testAnimal.getHunger(), 2, "Wrong message");
-
+        testAnimal.timePasses();
+        testAnimal.food();
+        assertEquals(testAnimal.getHunger(), 0, "Wrong message");
     }
     @Test
     void SetBreathTest(){
