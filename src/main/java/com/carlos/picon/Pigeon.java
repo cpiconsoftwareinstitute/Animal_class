@@ -2,7 +2,8 @@ package com.carlos.picon;
 
 public class Pigeon extends Bird {
 
-    public void talk() {
+    public String talk() {
+        return "Cooing noise!, twittering";
 
     }
     ///////////////////methods/////////////////////////

@@ -6,8 +6,9 @@ public class Human extends Mammal {
     int age;
 
     @Override
-    public void talk() {
-           System.out.println("To be or not to be");
+    public String talk() {
+           return "To be or not to be";
     }
+
 
 }

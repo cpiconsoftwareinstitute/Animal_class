@@ -5,7 +5,7 @@ public class Dog extends Mammal {
     ///////////////////methods/////////////////////////
     int age;
 
-    public void talk() {
-
+    public String talk() {
+        return "Burking!";
     }
 }

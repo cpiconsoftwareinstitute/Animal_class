@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-25T12:54:33 GMT" name="com.carlos.picon.test.AnimalTest" finished-at="2022-01-25T12:54:34 GMT" duration-ms="613">
+  <suite started-at="2022-01-25T14:26:57 GMT" name="com.carlos.picon.test.AnimalTest" finished-at="2022-01-25T14:26:57 GMT" duration-ms="641">
     <groups>
     </groups>
-    <test started-at="2022-01-25T12:54:33 GMT" name="Command line test" finished-at="2022-01-25T12:54:34 GMT" duration-ms="613">
+    <test started-at="2022-01-25T14:26:57 GMT" name="Command line test" finished-at="2022-01-25T14:26:57 GMT" duration-ms="641">
       <class name="com.carlos.picon.test.AnimalTest">
-        <test-method signature="SetAgeTest()[pri:0, instance:com.carlos.picon.test.AnimalTest@a307a8c]" started-at="2022-01-25T12:54:33 GMT" name="SetAgeTest" finished-at="2022-01-25T12:54:34 GMT" duration-ms="196" status="PASS">
+        <test-method signature="SetAgeTest()[pri:0, instance:com.carlos.picon.test.AnimalTest@6e01f9b0]" started-at="2022-01-25T14:26:57 GMT" name="SetAgeTest" finished-at="2022-01-25T14:26:57 GMT" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetAgeTest -->
-        <test-method signature="SetBreathTest()[pri:0, instance:com.carlos.picon.test.AnimalTest@a307a8c]" started-at="2022-01-25T12:54:34 GMT" name="SetBreathTest" finished-at="2022-01-25T12:54:34 GMT" duration-ms="19" status="PASS">
+        <test-method signature="SetBreathTest()[pri:0, instance:com.carlos.picon.test.AnimalTest@6e01f9b0]" started-at="2022-01-25T14:26:57 GMT" name="SetBreathTest" finished-at="2022-01-25T14:26:57 GMT" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetBreathTest -->
-        <test-method signature="SetHungerTest()[pri:0, instance:com.carlos.picon.test.AnimalTest@a307a8c]" started-at="2022-01-25T12:54:34 GMT" name="SetHungerTest" finished-at="2022-01-25T12:54:34 GMT" duration-ms="2" status="PASS">
+        <test-method signature="SetHungerTest()[pri:0, instance:com.carlos.picon.test.AnimalTest@6e01f9b0]" started-at="2022-01-25T14:26:57 GMT" name="SetHungerTest" finished-at="2022-01-25T14:26:57 GMT" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetHungerTest -->
+        <test-method signature="SetTalkTest()[pri:0, instance:com.carlos.picon.test.AnimalTest@6e01f9b0]" started-at="2022-01-25T14:26:57 GMT" name="SetTalkTest" finished-at="2022-01-25T14:26:57 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetTalkTest -->
       </class> <!-- com.carlos.picon.test.AnimalTest -->
     </test> <!-- Command line test -->
   </suite> <!-- com.carlos.picon.test.AnimalTest -->

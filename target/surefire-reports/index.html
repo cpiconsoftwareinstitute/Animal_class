@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -115,6 +115,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-com_carlos_picon_test_AnimalTest" title="com.carlos.picon.test.AnimalTest" class="method navigator-link" hash-for-method="SetHungerTest">SetHungerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com_carlos_picon_test_AnimalTest" title="com.carlos.picon.test.AnimalTest" class="method navigator-link" hash-for-method="SetTalkTest">SetTalkTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-com_carlos_picon_test_AnimalTest -->
@@ -154,6 +159,13 @@
                   <a name="SetHungerTest">
                   </a> <!-- SetHungerTest -->
                   <span class="method-name">SetHungerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SetTalkTest">
+                  </a> <!-- SetTalkTest -->
+                  <span class="method-name">SetTalkTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -209,24 +221,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'SetAgeTest')
 data.setCell(0, 2, 'com.carlos.picon.test.AnimalTest')
-data.setCell(0, 3, 196);
+data.setCell(0, 3, 155);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'SetBreathTest')
 data.setCell(1, 2, 'com.carlos.picon.test.AnimalTest')
-data.setCell(1, 3, 19);
+data.setCell(1, 3, 13);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'SetHungerTest')
 data.setCell(2, 2, 'com.carlos.picon.test.AnimalTest')
-data.setCell(2, 3, 2);
+data.setCell(2, 3, 11);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SetTalkTest')
+data.setCell(3, 2, 'com.carlos.picon.test.AnimalTest')
+data.setCell(3, 3, 1);
 window.suiteTableData['com_carlos_picon_test_AnimalTest']= { tableData: data, tableDiv: 'times-div-com_carlos_picon_test_AnimalTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 217 ms</span>
+              <span class="suite-total-time">Total running time: 180 ms</span>
               <div id="times-div-com_carlos_picon_test_AnimalTest">
               </div> <!-- times-div-com_carlos_picon_test_AnimalTest -->
             </div> <!-- times-div -->
@@ -259,11 +275,15 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SetBreathTest</span>
-                <span class="method-start">222 ms</span>
+                <span class="method-start">175 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SetHungerTest</span>
-                <span class="method-start">244 ms</span>
+                <span class="method-start">201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SetTalkTest</span>
+                <span class="method-start">217 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

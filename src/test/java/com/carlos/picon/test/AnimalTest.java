@@ -55,4 +55,16 @@ public class AnimalTest {
         assertEquals(testAnimal6.breath(), "The bird is breathing", "Wrong age");
 
     }
+    @Test
+    void SetTalkTest(){
+        //Human
+        Mammal testAnimal7 = new Human();
+        //Bird
+
+        //Human
+        testAnimal7.talk();
+
+        assertEquals(testAnimal7.talk(), "To be or not to be", "Wrong age");
+
+    }
 }

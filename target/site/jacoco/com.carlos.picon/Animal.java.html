@@ -33,7 +33,7 @@ public abstract class Animal {
      * Method to make the animal
      * speak.
      */
-    public abstract void talk();
+    public abstract String talk();
 
     /**
      * Adds times since the animal
