@@ -11,7 +11,7 @@ public abstract class Animal {
      * Constructor that sets the hunger
      * of the animal to zero.
      */
-    public Animal() {
+    protected Animal() {
         hunger = 0;
     }
 
