@@ -59,12 +59,18 @@ public class AnimalTest {
     void SetTalkTest(){
         //Human
         Mammal testAnimal7 = new Human();
+        Bird testAnimal8 = new Eagle();
+        Mammal testAnimal9 = new Dog();
         //Bird
 
         //Human
         testAnimal7.talk();
+        testAnimal8.talk();
+        testAnimal9.talk();
 
         assertEquals(testAnimal7.talk(), "To be or not to be", "Wrong age");
+        assertEquals(testAnimal8.talk(), "Growling!", "Wrong age");
+        assertEquals(testAnimal9.talk(), "Burking!", "Wrong age");
 
     }
 }
