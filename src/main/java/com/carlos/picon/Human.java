@@ -1,6 +1,6 @@
 package com.carlos.picon;
 
-public class human extends mammal{
+public class Human extends mammal{
 
     ///////////////////methods/////////////////////////
     int age;
