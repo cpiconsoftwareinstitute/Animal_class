@@ -40,8 +40,7 @@ public abstract class Animal {
     public String getSize() {
         if(state<3){
             size = "Baby";
-        }else if(state>=
-                3 && state<6){
+        }else if(state>3 && state<6){
             size = "Young";
         }else{
             size = "Adult";
