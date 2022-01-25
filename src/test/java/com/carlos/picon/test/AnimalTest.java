@@ -37,7 +37,7 @@ public class AnimalTest {
         testAnimal.timePasses();
         testAnimal.getHunger();
 
-        assertEquals(testAnimal.getHunger(), 2, "Wrong age");
+        assertEquals(testAnimal.getHunger(), 2, "Wrong message");
 
     }
     @Test
@@ -51,8 +51,8 @@ public class AnimalTest {
         //Bird
         testAnimal6.breath();
 
-        assertEquals(testAnimal5.breath(), "The mammal is breathing", "Wrong age");
-        assertEquals(testAnimal6.breath(), "The bird is breathing", "Wrong age");
+        assertEquals(testAnimal5.breath(), "The mammal is breathing", "Wrong action");
+        assertEquals(testAnimal6.breath(), "The bird is breathing", "Wrong action");
 
     }
     @Test
@@ -61,16 +61,20 @@ public class AnimalTest {
         Mammal testAnimal7 = new Human();
         Bird testAnimal8 = new Eagle();
         Mammal testAnimal9 = new Dog();
+        Bird testAnimal10 = new Pigeon();
         //Bird
 
         //Human
         testAnimal7.talk();
         testAnimal8.talk();
         testAnimal9.talk();
+        testAnimal10.talk();
 
-        assertEquals(testAnimal7.talk(), "To be or not to be", "Wrong age");
-        assertEquals(testAnimal8.talk(), "Growling!", "Wrong age");
-        assertEquals(testAnimal9.talk(), "Burking!", "Wrong age");
+
+        assertEquals(testAnimal7.talk(), "To be or not to be", "Wrong talk");
+        assertEquals(testAnimal8.talk(), "Growling!", "Wrong talk");
+        assertEquals(testAnimal9.talk(), "Burking!", "Wrong talk");
+        assertEquals(testAnimal10.talk(), "Cooing noise!, twittering", "Wrong talk");
 
     }
 }
