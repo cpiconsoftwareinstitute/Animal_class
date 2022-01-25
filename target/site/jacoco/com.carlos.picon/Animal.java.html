@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Animal.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Animal</a> &gt; <a href="index.source.html" class="el_package">com.carlos.picon</a> &gt; <span class="el_source">Animal.java</span></div><h1>Animal.java</h1><pre class="source lang-java linenums">package com.carlos.picon;
+public abstract class Animal {
+
+    /**
+     * Field for the level of hunger of
+     * the animal.
+     */
+    private int hunger;
+    int age;
+    /**
+     * Constructor that sets the hunger
+     * of the animal to zero.
+     */
+<span class="fc" id="L14">    protected Animal() {</span>
+<span class="fc" id="L15">        hunger = 0;</span>
+<span class="fc" id="L16">    }</span>
+
+    /**
+     * Retrieves the hunger of the
+     * animal.
+     *
+     * @return hunger
+     */
+    public int getHunger() {
+<span class="nc" id="L25">        return hunger;</span>
+    }
+    /**
+     * Method to make the animal
+     * speak.
+     */
+    public abstract void talk();
+
+    /**
+     * Adds times since the animal
+     * has eaten - increases hunger.
+     */
+    public void timePasses() {
+<span class="nc" id="L38">        hunger++;</span>
+<span class="nc" id="L39">    }</span>
+
+    /**
+     * Feed the animal. Not hungry
+     * anymore.
+     */
+    public void food() {
+<span class="nc" id="L46">        hunger = 0;</span>
+<span class="nc" id="L47">    }</span>
+
+
+    public void set_age(int new_age){
+
+<span class="fc" id="L52">        age = new_age;</span>
+
+<span class="fc" id="L54">    }</span>
+    public int get_age(){
+
+<span class="fc" id="L57">       return age;</span>
+
+    }
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
