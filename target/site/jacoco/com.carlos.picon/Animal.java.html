@@ -7,18 +7,42 @@ public abstract class Animal {
      */
     private int hunger;
     int age;
+    int state;
+    private String size;
     /**
      * Constructor that sets the hunger
      * of the animal to zero.
      */
-<span class="fc" id="L14">    protected Animal() {</span>
-<span class="fc" id="L15">        hunger = 0;</span>
-<span class="fc" id="L16">    }</span>
-
+    ///////////////////methods/////////////////////////
+<span class="fc" id="L17">    protected Animal() {</span>
+<span class="fc" id="L18">        hunger = 0;</span>
+<span class="fc" id="L19">        age = 0;</span>
+<span class="fc" id="L20">        size = &quot;baby&quot;;</span>
+<span class="fc" id="L21">        state = 0;</span>
+<span class="fc" id="L22">    }</span>
+    ///////////////////methods/////////////////////////
+    /**
+     * Method to make the state of growth pass
+     */
+    public void statePasses() {
+<span class="nc" id="L28">        state++;</span>
+<span class="nc" id="L29">    }</span>
+    /**
+     * Method to get the state of the growth
+     */
+    public String getSize() {
+<span class="nc bnc" id="L34" title="All 2 branches missed.">        if(state&lt;3){</span>
+<span class="nc" id="L35">            size = &quot;baby&quot;;</span>
+<span class="nc bnc" id="L36" title="All 4 branches missed.">        }else if(state&lt;3 &amp;&amp; state&gt;6){</span>
+<span class="nc" id="L37">            size = &quot;young&quot;;</span>
+        }else{
+<span class="nc" id="L39">            size = &quot;adult&quot;;</span>
+        }
+<span class="nc" id="L41">        return size;</span>
+    }
     /**
      * Retrieves the hunger of the
      * animal.
-     *
      *
      */
 
@@ -27,7 +51,7 @@ public abstract class Animal {
      */
     public int getHunger() {
 
-<span class="fc" id="L30">        return hunger;</span>
+<span class="fc" id="L54">        return hunger;</span>
     }
     /**
      * Method to make the animal
@@ -40,26 +64,26 @@ public abstract class Animal {
      * has eaten - increases hunger.
      */
     public void timePasses() {
-<span class="fc" id="L43">        hunger++;</span>
-<span class="fc" id="L44">    }</span>
+<span class="fc" id="L67">        hunger++;</span>
+<span class="fc" id="L68">    }</span>
 
     /**
      * Feed the animal. Not hungry
      * anymore.
      */
     public void food() {
-<span class="fc" id="L51">        hunger = 0;</span>
-<span class="fc" id="L52">    }</span>
+<span class="fc" id="L75">        hunger = 0;</span>
+<span class="fc" id="L76">    }</span>
 
 
     public void set_age(int new_age){
 
-<span class="fc" id="L57">        age = new_age;</span>
+<span class="fc" id="L81">        age = new_age;</span>
 
-<span class="fc" id="L59">    }</span>
+<span class="fc" id="L83">    }</span>
     public int get_age(){
 
-<span class="fc" id="L62">       return age;</span>
+<span class="fc" id="L86">       return age;</span>
 
     }
 

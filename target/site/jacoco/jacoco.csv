@@ -1,6 +1,6 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
 Animal,com.carlos.picon,Mammal,0,5,0,0,0,2,0,2,0,2
-Animal,com.carlos.picon,Animal,0,27,0,0,0,11,0,6,0,6
+Animal,com.carlos.picon,Animal,33,36,6,0,8,14,5,6,2,6
 Animal,com.carlos.picon,Human,0,5,0,0,0,2,0,2,0,2
 Animal,com.carlos.picon,Eagle,0,5,0,0,0,2,0,2,0,2
 Animal,com.carlos.picon,Pigeon,0,5,0,0,0,2,0,2,0,2

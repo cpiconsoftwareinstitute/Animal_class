@@ -3,7 +3,6 @@ package com.carlos.picon;
 public class Human extends Mammal {
 
     ///////////////////methods/////////////////////////
-    int age;
 
     @Override
     public String talk() {

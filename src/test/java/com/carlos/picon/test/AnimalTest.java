@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AnimalTest {
 
     @Test
-    void SetAgeTest(){
+    public void SetAgeTest(){
 
         Animal testAnimal = new Human();
         Animal testAnimal2 = new Dog();
@@ -29,7 +29,7 @@ public class AnimalTest {
 
     }
     @Test
-    void SetHungerTest(){
+    public void SetHungerTest(){
 
         Animal testAnimal = new Human();
         //Human
@@ -43,7 +43,7 @@ public class AnimalTest {
         assertEquals(testAnimal.getHunger(), 0, "Wrong message");
     }
     @Test
-    void SetBreathTest(){
+    public void SetBreathTest(){
         //Human
         Mammal testAnimal5 = new Human();
         //Bird
@@ -58,7 +58,7 @@ public class AnimalTest {
 
     }
     @Test
-    void SetTalkTest(){
+    public void SetTalkTest(){
         //Human
         Mammal testAnimal7 = new Human();
         Bird testAnimal8 = new Eagle();
