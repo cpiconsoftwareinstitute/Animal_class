@@ -88,6 +88,8 @@ public class AnimalTest {
             testAnimal11.statePasses();
         }
         assertEquals(testAnimal11.getSize(), "Adult", "Wrong size");
+        testAnimal11.Setstate(0);
+        assertEquals(testAnimal11.getSize(), "Baby", "Wrong size");
         //Dog
         Animal testAnimal12= new Dog();
         assertEquals(testAnimal12.getSize(), "Baby", "Wrong size");
