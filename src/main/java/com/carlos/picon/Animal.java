@@ -19,9 +19,14 @@ public abstract class Animal {
      * Retrieves the hunger of the
      * animal.
      *
+     *
+     */
+
+     /**
      * @return hunger
      */
     public int getHunger() {
+
         return hunger;
     }
     /**

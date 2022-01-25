@@ -7,7 +7,7 @@ public class Human extends Mammal {
 
     @Override
     public void talk() {
-
+           System.out.println("To be or not to be");
     }
 
 }

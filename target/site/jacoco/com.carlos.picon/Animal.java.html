@@ -19,10 +19,15 @@ public abstract class Animal {
      * Retrieves the hunger of the
      * animal.
      *
+     *
+     */
+
+     /**
      * @return hunger
      */
     public int getHunger() {
-<span class="nc" id="L25">        return hunger;</span>
+
+<span class="fc" id="L30">        return hunger;</span>
     }
     /**
      * Method to make the animal
@@ -35,26 +40,26 @@ public abstract class Animal {
      * has eaten - increases hunger.
      */
     public void timePasses() {
-<span class="nc" id="L38">        hunger++;</span>
-<span class="nc" id="L39">    }</span>
+<span class="fc" id="L43">        hunger++;</span>
+<span class="fc" id="L44">    }</span>
 
     /**
      * Feed the animal. Not hungry
      * anymore.
      */
     public void food() {
-<span class="nc" id="L46">        hunger = 0;</span>
-<span class="nc" id="L47">    }</span>
+<span class="nc" id="L51">        hunger = 0;</span>
+<span class="nc" id="L52">    }</span>
 
 
     public void set_age(int new_age){
 
-<span class="fc" id="L52">        age = new_age;</span>
+<span class="fc" id="L57">        age = new_age;</span>
 
-<span class="fc" id="L54">    }</span>
+<span class="fc" id="L59">    }</span>
     public int get_age(){
 
-<span class="fc" id="L57">       return age;</span>
+<span class="fc" id="L62">       return age;</span>
 
     }
 
