@@ -22,6 +22,13 @@ public abstract class Animal {
     }
     ///////////////////methods/////////////////////////
     /**
+     * Method to set a new state
+     */
+    public int Setstate(int new_state) {
+        state=new_state;
+        return state;
+    }
+    /**
      * Method to make the state of growth pass
      */
     public void statePasses() {
@@ -33,7 +40,7 @@ public abstract class Animal {
     public String getSize() {
         if(state<3){
             size = "Baby";
-        }else if(state>3 && state<6){
+        }else if(state>=3 && state<6){
             size = "Young";
         }else{
             size = "Adult";

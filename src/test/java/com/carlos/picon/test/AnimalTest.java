@@ -87,6 +87,17 @@ public class AnimalTest {
         for(int i=0;i<7;i++){
             testAnimal11.statePasses();
         }
-        assertEquals(testAnimal11.getSize(), "Adult", "Wrong talk");
+        assertEquals(testAnimal11.getSize(), "Adult", "Wrong size");
+        //Dog
+        Animal testAnimal12= new Dog();
+        assertEquals(testAnimal12.getSize(), "Baby", "Wrong size");
+        //Eagle
+        Bird testAnimal13= new Eagle();
+
+        for(int i=0;i<4;i++){
+            testAnimal13.statePasses();
+        }
+        assertEquals(testAnimal13.getSize(), "Young", "Wrong size");
     }
+
 }
