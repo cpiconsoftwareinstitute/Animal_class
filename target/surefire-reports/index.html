@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-com_carlos_picon_test_AnimalTest" title="com.carlos.picon.test.AnimalTest" class="method navigator-link" hash-for-method="SetAgeTest">SetAgeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com_carlos_picon_test_AnimalTest" title="com.carlos.picon.test.AnimalTest" class="method navigator-link" hash-for-method="SetBreathTest">SetBreathTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com_carlos_picon_test_AnimalTest" title="com.carlos.picon.test.AnimalTest" class="method navigator-link" hash-for-method="SetHungerTest">SetHungerTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-com_carlos_picon_test_AnimalTest -->
@@ -130,6 +140,20 @@
                   <a name="SetAgeTest">
                   </a> <!-- SetAgeTest -->
                   <span class="method-name">SetAgeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SetBreathTest">
+                  </a> <!-- SetBreathTest -->
+                  <span class="method-name">SetBreathTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SetHungerTest">
+                  </a> <!-- SetHungerTest -->
+                  <span class="method-name">SetHungerTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,16 +209,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'SetAgeTest')
 data.setCell(0, 2, 'com.carlos.picon.test.AnimalTest')
-data.setCell(0, 3, 131);
+data.setCell(0, 3, 196);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SetBreathTest')
+data.setCell(1, 2, 'com.carlos.picon.test.AnimalTest')
+data.setCell(1, 3, 19);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SetHungerTest')
+data.setCell(2, 2, 'com.carlos.picon.test.AnimalTest')
+data.setCell(2, 3, 2);
 window.suiteTableData['com_carlos_picon_test_AnimalTest']= { tableData: data, tableDiv: 'times-div-com_carlos_picon_test_AnimalTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 131 ms</span>
+              <span class="suite-total-time">Total running time: 217 ms</span>
               <div id="times-div-com_carlos_picon_test_AnimalTest">
               </div> <!-- times-div-com_carlos_picon_test_AnimalTest -->
             </div> <!-- times-div -->
@@ -224,6 +256,14 @@ return data;
               <div class="test-method">
                 <span class="method-name">SetAgeTest</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SetBreathTest</span>
+                <span class="method-start">222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SetHungerTest</span>
+                <span class="method-start">244 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

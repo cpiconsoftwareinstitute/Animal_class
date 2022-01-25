@@ -2,7 +2,7 @@ package com.carlos.picon;
 
 public abstract class Bird extends Animal{
 
-    public void breath(){
-        System.out.println("The bird is breathing");
+    public String breath(){
+        return "The bird is breathing";
     }
 }
