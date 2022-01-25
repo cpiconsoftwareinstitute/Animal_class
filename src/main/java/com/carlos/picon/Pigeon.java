@@ -1,6 +1,6 @@
 package com.carlos.picon;
 
-class pigeon extends bird{
+public class Pigeon extends Bird {
 
     public void talk() {
 

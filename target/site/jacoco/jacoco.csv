@@ -1,8 +1,8 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Animal,com.carlos.picon,Mammal,4,3,0,0,2,1,1,1,1,1
 Animal,com.carlos.picon,Animal,14,13,0,0,5,6,3,3,3,3
 Animal,com.carlos.picon,Human,1,3,0,0,1,1,1,1,1,1
-Animal,com.carlos.picon,pigeon,4,0,0,0,2,0,2,0,2,0
-Animal,com.carlos.picon,bird,7,0,0,0,3,0,2,0,2,0
-Animal,com.carlos.picon,eagle,4,0,0,0,2,0,2,0,2,0
+Animal,com.carlos.picon,Eagle,1,3,0,0,1,1,1,1,1,1
+Animal,com.carlos.picon,Pigeon,1,3,0,0,1,1,1,1,1,1
+Animal,com.carlos.picon,Bird,4,3,0,0,2,1,1,1,1,1
 Animal,com.carlos.picon,Dog,1,3,0,0,1,1,1,1,1,1
-Animal,com.carlos.picon,mammal,4,3,0,0,2,1,1,1,1,1

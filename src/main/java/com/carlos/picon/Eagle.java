@@ -1,6 +1,6 @@
 package com.carlos.picon;
 
-public class eagle extends bird{
+public class Eagle extends Bird {
 
     ///////////////////methods/////////////////////////
     int age;
