@@ -79,4 +79,14 @@ public class AnimalTest {
         assertEquals(testAnimal10.talk(), "Cooing noise!, twittering", "Wrong talk");
 
     }
+    @Test
+    public void SetSizeTest(){
+        //Human
+        Animal testAnimal11= new Human();
+        //Human
+        for(int i=0;i<7;i++){
+            testAnimal11.statePasses();
+        }
+        assertEquals(testAnimal11.getSize(), "Adult", "Wrong talk");
+    }
 }

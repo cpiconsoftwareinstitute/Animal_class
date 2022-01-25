@@ -32,11 +32,11 @@ public abstract class Animal {
      */
     public String getSize() {
         if(state<3){
-            size = "baby";
-        }else if(state<3 && state>6){
-            size = "young";
+            size = "Baby";
+        }else if(state>3 && state<6){
+            size = "Young";
         }else{
-            size = "adult";
+            size = "Adult";
         }
         return size;
     }
