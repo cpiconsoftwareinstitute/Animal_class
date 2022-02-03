@@ -2,6 +2,7 @@ package com.carlos.picon;
 
 public class Human extends Mammal {
 
+    String name;
     ///////////////////methods/////////////////////////
 
     @Override

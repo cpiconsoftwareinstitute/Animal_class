@@ -6,7 +6,5 @@ public class Pigeon extends Bird {
         return "Cooing noise!, twittering";
 
     }
-    ///////////////////methods/////////////////////////
-    int age;
 
 }

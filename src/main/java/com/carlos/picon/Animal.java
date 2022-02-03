@@ -9,6 +9,9 @@ public abstract class Animal {
     int age;
     int state;
     private String size;
+    float price;
+    String name;
+
     /**
      * Constructor that sets the hunger
      * of the animal to zero.
@@ -21,6 +24,14 @@ public abstract class Animal {
         state = 0;
     }
     ///////////////////methods/////////////////////////
+    public void setName (String name) {
+        this.name = name;
+    }
+
+    String getName() {
+        return name;
+    }
+
     /**
      * Method to set a new state
      */
@@ -91,6 +102,23 @@ public abstract class Animal {
     public int get_age(){
 
        return age;
+
+    }
+    /**
+     * Method to set and get price of an animal.
+     */
+
+    public void setPrice(float new_price){
+
+        price = new_price;
+
+    }
+    public float getPrice(){
+
+        return price;
+
+    }public String toString(){
+        return "The animal: ";
 
     }
 
